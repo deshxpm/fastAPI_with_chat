@@ -2,7 +2,7 @@
 
 # FILE STRUCTURE
 
-<!-- FastAPI_with_Chat/
+FastAPI_with_Chat/
 │
 ├── main/
 │   ├── templates/
@@ -22,5 +22,6 @@
 │   ├── chat.py               # WebSocket chat logic
 │   ├── utils.py              # Utility functions (password hashing, JWT helpers)
 │   └── database.py           # Database connection setup
+│   └── hashing.py            # Hashing for password
 ├── requirements.txt          # Python dependencies
-└── .env                      # Environment variables (secret keys) -->
+└── .env                      # Environment variables (secret keys)
